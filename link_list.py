@@ -5,7 +5,7 @@
 #  first node is called the Head the last node is called the tail Denote the end of the 
 # list and point to null or None 
 
-# singlely link list 
+# single link list
 
 
 class Node(object):
