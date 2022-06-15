@@ -26,7 +26,12 @@ sorted_2D = sorted(point2D, key=lambda y: y[1])
 print(point2D)
 print(sorted_2D)
 
-
+point_list_of_list = [[1,2,1], [15,1,2], [5, -1,4], [10,4,3]]
+point_list_of_list_sorted = sorted(point_list_of_list, key=lambda y: y[0])
+print("-------------------------")
+print(point_list_of_list)
+print(point_list_of_list_sorted)
+print("-------------------------")
 # map function 
 #(func, seq)
 a = [1,2,3,4,5]

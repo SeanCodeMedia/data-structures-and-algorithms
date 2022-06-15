@@ -51,7 +51,7 @@ class LinkList:
 		else:
 			while current:
 
-				if current.data  == key:
+				if current.data == key:
 
 					current = previous
 					current.next_node = previous.next_node.next_node 
