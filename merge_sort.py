@@ -48,4 +48,9 @@ def merge_sort(array):
     return merge(left, right)
 
 
-print(merge_sort(unsorted))
+def main(unsorted):
+    print(merge_sort(unsorted))
+
+
+if __name__ == '__main__':
+    main(unsorted)
